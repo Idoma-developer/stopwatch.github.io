@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #026b51;
+    display: grid;
+    place-content: center;
+}
+h1,h2 {
+    font-size: 40px;
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+button{
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    cursor: pointer;   
+    text-transform: uppercase; 
+}
+#button-start,#button-stop,#button-reset{
+    margin-right: 10rem;
+}
+button:hover{
+    background-color: #fff;
+    color: #026b51;
+    transition: ease-in 1.3s;
+}
